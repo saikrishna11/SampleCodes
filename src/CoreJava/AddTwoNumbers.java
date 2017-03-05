@@ -1,5 +1,9 @@
 package CoreJava;
 
+import java.util.Scanner;
+
+//Write a program to add two numbers
+
 public class AddTwoNumbers {
 
 	public static void main(String[] args) {
@@ -9,6 +13,6 @@ public class AddTwoNumbers {
 		System.out.println("Enter the second number: ");
 		int b=sc.nextInt();
 		int sum =a+b;
-		System.out.println("The sum of a = " +a +" and b = " +b +" is: "+sum);
+		System.out.println("The sum of " +a +" and " +b +" is: "+sum);
 	}
 }
