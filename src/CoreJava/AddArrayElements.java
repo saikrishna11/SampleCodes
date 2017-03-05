@@ -2,6 +2,8 @@ package CoreJava;
 
 import java.util.Scanner;
 
+//This class is able to print the sum of the array elements in the array
+
 public class AddArrayElements {
 
 	public static void main(String[] args) {

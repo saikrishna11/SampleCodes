@@ -1,9 +1,15 @@
 package CoreJava;
 
+import java.util.Scanner;
+
+//Write a program to reverse a string without using reverse keyword
+
 public class StringReversewithoutKeyword {
 
 	public static void main(String[] args) {
-		String input = "Be in present";
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter any String: ");
+		String input = sc.next();
 	    char[] temparray= input.toCharArray();
 	    int left,right=0;
 	    right=temparray.length-1;
@@ -14,9 +20,9 @@ public class StringReversewithoutKeyword {
 	     temparray[left] = temparray[right];
 	     temparray[right]=temp;
 	    }
+	    System.out.println("Reversed String is : ");
 	    for (char c : temparray)
-	     System.out.print(c);
-	    System.out.println();
+	     System.out.print(c);    
 	}
 
 }
